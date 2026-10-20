@@ -9,7 +9,8 @@ permissions:
   contents: write
 jobs:
   publish:
-    if: ${{ github.repository_owner == 'FabricMC' }}
+    #if: ${{ github.repository_owner == 'FabricMC' }}
+    if: false # disable publishing for now
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/setup-java@v4
