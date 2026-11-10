@@ -1,5 +1,5 @@
 CLASS net/minecraft/util/Mth
-	COMMENT Math utilities.
+	COMMENT Math utilities yes.
 	METHOD clamp (III)I
 		COMMENT Clamps `value` between `min` and `max` (inclusive).
 		COMMENT
