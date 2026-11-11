@@ -1,5 +1,7 @@
 CLASS net/minecraft/util/Mth
 	COMMENT Math utilities.
+	FIELD PI F
+		COMMENT Pie
 	METHOD clamp (III)I
 		COMMENT Clamps `value` between `min` and `max` (inclusive).
 		COMMENT
